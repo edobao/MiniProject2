@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         oolongText.textAlignment = .center
         oolongText.font = UIFont(name: "Menlo", size: 16.0)
         oolongText.text = "Ahh, yes! A good choice"
+        oolongText.backgroundColor = UIColor.white
     }
     
     //Testing comment 
@@ -47,7 +48,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+///sample text
 
 }
 
