@@ -32,14 +32,14 @@ class ViewController: UIViewController {
         oolongText.text = "Ahh, yes! A good choice"
     }
     
-    
+    //Testing comment 
     @IBOutlet weak var greenText: UILabel!
     
     @IBAction func greenButton(_ sender: UIButton) {
         bubbleText.text = " "
         oolongText.text = " "
          greenText.textColor = UIColor(red: 255/255.0, green: 245/255.0, blue: 232/255, alpha: 1.0)
-    
+        greenText.textAlignment = .center
          greenText.font = UIFont(name: "Menlo", size: 16.0)
         greenText.text = "A true classic"
     }
